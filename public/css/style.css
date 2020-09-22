@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+  }
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.background {
+    background-image: url('/images/server_room.webp');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding: 3vh 0vh;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    padding: 28px 6vh;
+    color: rgb(255, 255, 255);
+}
+
+.header-right a:hover {
+    border-bottom: solid blue;
+}
+
+.logo {
+    font-size: 20px;
+    color: white;
+}
+
+.logo:hover {
+    color: white;
+}
+
+.main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.icons {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.icons i {
+    padding: 10px;
+}
+
+
+
